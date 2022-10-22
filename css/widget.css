@@ -1,0 +1,129 @@
+﻿/*-----------------------------------------------------------------------------------*/
+/*  EMI Calculator Responsive Widget style sheet
+/*-----------------------------------------------------------------------------------*/
+#ecww-formwrapper {
+    background: #EEE;
+}
+
+#ecww-formwrapper, #ecww-summary, #ecww-piechart {
+    height: 330px;
+    overflow: hidden;
+}
+.input-group-addon {
+    padding: 11px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#ecww-form {
+    background: #EEE;
+    padding: 10px 20px;
+}
+
+[data-toggle=buttons] > .btn input[type=radio], [data-toggle=buttons] > .btn-group > .btn input[type=radio], [data-toggle=buttons] > .btn input[type=checkbox], [data-toggle=buttons] > .btn-group > .btn input[type=checkbox] {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+
+#ecww-summary, #ecww-piechart {
+    background: #FFF;
+    border: 1px solid #EEE;
+    border-top: 0 none;
+}
+
+#ecww-piechart {
+    border-bottom: 0 none !important;
+}
+
+.no-pad {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (min-width:768px) {
+    #ecww-summary, #ecww-piechart {
+        border-left: 0 none;
+        border-bottom: 0 none;
+        border-top: 1px solid #EEE;
+    }
+}
+
+#ecww-header {
+    padding: 8px 14px;
+    border: 0 none;
+    font-size: 27px;
+    background-color: black;
+    color: white;
+}
+
+.ecww-inline-input-group {
+    overflow: hidden;
+}
+
+.ecww-tenure-choice {
+    float: right;
+    margin-left: 10px;
+}
+
+.ecww-percent-sign {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.glyphicon-rupee::before {
+    content: '₹';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.glyphicon-percent::before {
+    content: '%';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#ecww-monthlypayment, #ecww-totalinterest, #ecww-totalamount {
+    padding: 18px 0;
+    text-align: center;
+    border-bottom: 1px dotted #DBDAD7;
+}
+
+#ecww-totalamount {
+    border-bottom: 0 none;
+}
+
+#ecww-summary h4 {
+    color: #888;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#ecww-summary p {
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#ecww-monthlypayment p {
+    font-size: 24px;
+    line-height: 36px;
+    text-align:center;
+    font-weight: 700;
+}
+
+.glyphicon {
+    width: 1.28571429em;
+    text-align: center;
+}
